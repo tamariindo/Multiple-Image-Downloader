@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Multiple Image Downloader",
+  "version": "1.0",
+  "description": "Multiple Image Downloader",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "menus",
+    "downloads",
+    "tabs"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "your@email.here"
+    }
+  }
+}
